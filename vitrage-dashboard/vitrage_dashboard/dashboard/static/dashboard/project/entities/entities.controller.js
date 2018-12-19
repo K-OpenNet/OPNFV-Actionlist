@@ -8,7 +8,6 @@
     EntitiesController.$inject = ['$scope', 'vitrageTopologySrv', '$interval', '$location', '$timeout','modalSrv','$window','vitrageActionSrv'];
 
     function EntitiesController($scope, vitrageTopologySrv, $interval, $location, $timeout,modalSrv,$window,vitrageActionSrv) {
->>>>>>> 69eb3d91ebc1c869257348d83e86e65cfae036f1
         this.model = {selected: {}};
 
         var _this = this,
@@ -17,13 +16,7 @@
             loadInterval,
             initialized = false,
             timeoutSubscriber,
-<<<<<<< HEAD
-            timezone = timeSrv.getHorizonTimezone(),
-            dateFormat = timeSrv.longDateFormat;
-=======
             referenceUrl = {};
->>>>>>> 69eb3d91ebc1c869257348d83e86e65cfae036f1
-
 
         $scope.$watch('automaticRefresh', function (newData, oldData) {
             if (newData !== undefined && newData != oldData) {

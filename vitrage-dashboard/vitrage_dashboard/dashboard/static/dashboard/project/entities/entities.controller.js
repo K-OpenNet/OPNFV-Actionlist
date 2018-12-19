@@ -5,11 +5,6 @@
         .module('horizon.dashboard.project.vitrage')
         .controller('EntitiesController', EntitiesController);
 
-<<<<<<< HEAD
-    EntitiesController.$inject = ['$scope', 'vitrageTopologySrv', 'timeSrv', '$interval', '$location', '$timeout'];
-
-    function EntitiesController($scope, vitrageTopologySrv, timeSrv, $interval, $location, $timeout) {
-=======
     EntitiesController.$inject = ['$scope', 'vitrageTopologySrv', '$interval', '$location', '$timeout','modalSrv','$window','vitrageActionSrv'];
 
     function EntitiesController($scope, vitrageTopologySrv, $interval, $location, $timeout,modalSrv,$window,vitrageActionSrv) {

@@ -63,7 +63,6 @@
             }else{
                 data.Vitrage_reference = 'No reference';
             }
->>>>>>> 69eb3d91ebc1c869257348d83e86e65cfae036f1
             _this.selectedItem = data;
             event.stopPropagation();
             $scope.$digest();

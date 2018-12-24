@@ -48,10 +48,6 @@
         });
 
         $scope.$on('graphItemClicked', function (event, data) {
-<<<<<<< HEAD
-            data.timezone = timezone;
-            data.dateFormat = dateFormat;
-=======
             vitrageActionSrv.getSetting()
             .then(
                 function success(result) {

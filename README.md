@@ -18,3 +18,9 @@
 ## 관련 오픈소스 기여 증빙
 https://review.openstack.org/#/c/531141/ 
 ![actionpanel](https://user-images.githubusercontent.com/16011260/51455434-dc4a6200-1d8c-11e9-8f7f-08ea043d22e3.PNG)
+
+## 해당 소프트웨어와 연계한 기술문서 및 데모/포스터 실적
+
+기술문서 : None
+
+포스터 : [[숭실대학교]ONK 2018 Fall.pdf](https://github.com/K-OpenNet/OPNFV-High-Availability-/files/2778764/ONK.2018.Fall.pdf)
